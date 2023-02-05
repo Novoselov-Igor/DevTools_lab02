@@ -17,6 +17,7 @@ namespace Wintellect.PowerCollections
             if (arrSize < 0)
                 throw new InvalidOperationException("Размер стека не может быть отрицательным");
             values = new T[arrSize];
+
             Capacity = arrSize;
         }
 
