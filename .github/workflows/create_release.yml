@@ -12,7 +12,7 @@ jobs:
       deployments: write
       repository-projects: write
       packages: write
-      contents: read
+      contents: write
       id-token: write
       
     steps:
